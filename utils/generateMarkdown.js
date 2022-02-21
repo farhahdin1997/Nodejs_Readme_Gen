@@ -1,7 +1,11 @@
-// function to generate markdown for README
-const generateMarkdown = (data) => {
 
-  //License badge handling
+// TODO: Create a function that returns a license badge based on which license is passed in
+// If there is no license, return an empty string
+function renderLicenseBadge(license) {
+  // allows users to choose the git hub badges
+  // do a switch a case with the URLS of the license badge
+  //case
+
   switch (data.license) {
     case 'Apache 2.0':
       licenseBadge = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
@@ -29,11 +33,30 @@ const generateMarkdown = (data) => {
       break;
     default:
       break;
-  } 
-
-
-
-
+  }
 
 
 }
+
+
+
+// TODO: Create a function that returns the license link
+// If there is no license, return an empty string
+function renderLicenseLink(license) {
+// when doing to the switch case above you will be adding this in when putting the url in
+}
+
+// TODO: Create a function that returns the license section of README
+// If there is no license, return an empty string
+function renderLicenseSection(license) {
+
+}
+
+// TODO: Create a function to generate markdown for README
+function generateMarkdown(data) {
+  return `# ${data.title}
+
+`;
+}
+
+module.exports = generateMarkdown;
