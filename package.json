@@ -1,21 +1,21 @@
 {
-  "name": "nodejs_reaadme",
+  "name": "n",
   "version": "1.0.0",
-  "description": "",
+  "description": "Homework #09 - Node.JS: Professional README Generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/farhahdin1997/readMGen.git"
+    "url": "git+https://github.com/farhahdin1997/testingReadme.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/farhahdin1997/readMGen/issues"
+    "url": "https://github.com/farhahdin1997/testingReadme/issues"
   },
-  "homepage": "https://github.com/farhahdin1997/readMGen#readme",
+  "homepage": "https://github.com/farhahdin1997/testingReadme#readme",
   "dependencies": {
     "inquirer": "^8.2.0"
   }
