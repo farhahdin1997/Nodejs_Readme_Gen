@@ -155,7 +155,16 @@ const writeToFile = (fileName, data) => {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+const init = async () => {
+  try {
+      await inquirer.prompt(welcome);
+      console.log(letsGo);
+      const data = await inquirer.prompt(questions);
+      writeToFile('./output/README.md', generateMarkdown(data));
+  } catch (err) {
+      console.log(err);
+  }
+}
 
 // Function call to initialize app
 init();
