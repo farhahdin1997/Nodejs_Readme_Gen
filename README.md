@@ -3,13 +3,14 @@
 This application allows users to create a readme file from terminal. It shows a variety of questions that the user will answer that they want to include in there readme file.This application has used inquirer package, javascript . Inquirer is an NPM package that provides an easy way to capture user input in your Node.js command line interface applications. It provides several methods for asking questions and returning answers from the user that can be accessed by a .then promise function.
 
 # User Story
-
+```
 AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 
 ```
 # Acceptance Criteria
+
 ```
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for information about my application repository
@@ -28,6 +29,6 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
 ```
-
 Walk through of the application 
+https://drive.google.com/file/d/1m4NPUlh1JmBw1LPQ2x-cJvDmUzAl62m1/view
 
