@@ -1,34 +1,30 @@
-# Read me example 
+# README Generator
 
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
 ---
 
 ## Description
-This is a readme file that allow users to create a readme file through command line
+Readme.md file that will dynamically create by using the command line
 
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contributing](#contributing)
 * [License](#license)
 * [Questions](#questions)
 
 ## Installation
-please install node
+Install node, Open Termnimal, Clone reop, Open reop (cd repo name) , Install JSON Package (npm install), node index.js
 
 ## Usage
-example 
-
-## Contributing
-Farhah 
+Answer the questions that are provided
 
 ## License 
-Licensed under the BSD 3-Clause License. Copyright © 2022
+Licensed under the GNU GPLv2.0 License. Copyright © 2022
 
 ## Questions
 *For any additional information find me at* 
 
-GitHub: [@farhahdin97](https://github.com/farhahdin97/)
+GitHub: [@farhahdin](https://github.com/farhahdin/)
 
-Email: [farhahdin@hotmail.com](mailto:farhahdin@hotmail.com)
+Email: [farhahdin97@hotmail.com](mailto:farhahdin97@hotmail.com)
