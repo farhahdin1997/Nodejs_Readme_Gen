@@ -30,7 +30,7 @@ THEN I am taken to the corresponding section of the README
 
 ```
 Walk through of the application 
-<iframe src="https://drive.google.com/file/d/1m4NPUlh1JmBw1LPQ2x-cJvDmUzAl62m1/preview" width="640" height="480"></iframe>
+https://drive.google.com/file/d/1m4NPUlh1JmBw1LPQ2x-cJvDmUzAl62m1/view
 
 Repository 
 https://github.com/farhahdin1997/Nodejs_Readme_Gen
