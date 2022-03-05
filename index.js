@@ -1,8 +1,8 @@
 'use strict';
 const fs = require('fs');
+const path = require('path');
 const inquirer = require('inquirer');
 const chalk = require('chalk');
-inquirer.registerPrompt('recursive', require('./utils/my-inquirer-recursive.js'));
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
 //Welcome message
@@ -160,6 +160,17 @@ const questions = [
 
 //Function to write README file
 const writeToFile = (fileName, data) => {
+    
+    function ensureDirectoryExistence(filePath) {
+        var dirname = path.dirname(filePath);
+        if (fs.existsSync(dirname)) {
+          return true;
+        }
+        ensureDirectoryExistence(dirname);
+        fs.mkdirSync(dirname);
+      }
+      ensureDirectoryExistence('./output')
+    
     fs.writeFile(fileName, data, (err) =>
         err ? console.error(err) : console.log(success)
     );
@@ -168,8 +179,6 @@ const writeToFile = (fileName, data) => {
 //Function to initialize the generator 
 const init = async () => {
     try {
-        await inquirer.prompt(welcome);
-        console.log(letsGo);
         const data = await inquirer.prompt(questions);
         writeToFile('./output/README.md', generateMarkdown(data));
     } catch (err) {
